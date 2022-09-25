@@ -1,7 +1,7 @@
 //If a is greater than b return 'a is greater than b' else 'a is less than b'. 
 let a=62;
 //let a = prompt("Please enter value of a");
-//can't use because a is string.
+//can't use because type of a and b is string.
 //let b = prompt("Please enter value of b");
  let b=66;
 let output;
