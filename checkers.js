@@ -20,3 +20,16 @@ console.log(output);
 //alert('a = ' + a + ', b = ' + b + " and " + output);
 
 //check whether a number is negative, positive, or zero.
+let num=null;
+let message;
+if (num>0) {message=' is positive number.'}
+else if (num==0){
+    message=' is 0.'
+}
+else if(num<0){
+    message = ' is negative number.'
+}
+else {
+    message=" isn't defined and is an edge case."
+}
+    console.log(num + message);
