@@ -34,3 +34,24 @@ case ((score>=90)&&(score<=100)):
 console.log("the grade is A");
 
 break;
+
+    
+    //checking credit score
+    let creditScore = 20202
+switch(true){
+        case(creditScore < 200 && typeof creditScore == 'number'):
+            console.log('Too bad score')
+            break
+        case(creditScore < 500 && typeof creditScore == 'number'):
+            console.log('Average but bad credit score')
+            break
+        case(creditScore < 700 && typeof creditScore == 'number'):
+            console.log('You are good to go')
+            break
+        case(creditScore > 700 && creditScore <= 850 && typeof creditScore == 'number'):
+            console.log('Excellent')
+            break
+        default:
+            console.log('Not correct format or not in our range')
+            break
+}
