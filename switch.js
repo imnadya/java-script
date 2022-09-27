@@ -5,7 +5,7 @@
 50-59, D
 0-49, F
 */
-let score = 89;
+let score = -89;
 switch(true)
 {
 case (score>= 0 && score<= 49 && typeof score == 'number'):
@@ -20,14 +20,12 @@ case (score>= 60 && score <= 69 && typeof score == 'number'):
 case (score>= 70 && score<= 89 && typeof score == 'number'):
     console.log("The grade is B");
     break;
-
 case (score>=90 && score<=100 && typeof score == 'number'):
     console.log("the grade is A");
     break;
 default:
     console.log('Not correct format or not in our range');
-    break;
-}
+    }
 
     
     //checking credit score
