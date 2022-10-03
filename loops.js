@@ -62,3 +62,16 @@ console.log('Task #7')
 for (let i7 = 0; i7<people.length; i7++){
 console.log(people[i7].toUpperCase())
 }
+//const people1 = ['trump', 'putin', 'biden', 'jinping', 'macron']
+//for (let i = 0; i <4; i++){
+//let Bigletters = people1[i].charAt(0).toUpperCase()
+//console.log(Bigletters+ people1[i].substring(1))
+    }
+
+// Profit
+let initialAmount=1000;
+for (let i=1; i<=10;i++){
+    let profit = initialAmount*0.02
+    initialAmount = initialAmount + profit;
+    console.log(`Our profit at year is ${profit} and total amount is ${initialAmount}`)
+}
