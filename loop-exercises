@@ -21,3 +21,15 @@ console.log('Odd numbers are:')
 console.log(odd);
 
 // Print pattern using loop
+let pattern='';
+let length=6;
+for (let ii=1; ii<=length*2-1; ii++){
+    if (ii<=length){
+                pattern=pattern + '*';
+        console.log(pattern);
+    }
+    else {        
+        pattern=pattern.slice(1);
+        console.log(pattern);
+    }
+}
