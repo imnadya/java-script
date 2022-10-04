@@ -1,0 +1,23 @@
+// Create two empty array: even[], odd[]. 
+// Loop numbers from 0 to 30. 
+// Each time when you see even number put it into 
+// Even[] and the same with odd numbers. 
+// Print Even[] and Odd[]
+let num = 0;
+let even=[], odd=[];
+for (let i=0; i<=30;i++) {
+if (i%2==0) {
+        //console.log(`${i} is even number.`);
+    even.push(i);
+}
+    else {
+     //console.log(`${i} is odd number.`)
+        odd.push(i);
+    }
+}
+console.log('Even numbers are:')
+console.log(even);
+console.log('Odd numbers are:')
+console.log(odd);
+
+// Print pattern using loop
